@@ -18,7 +18,7 @@ The app displays the BMI value and the corresponding weight category.
 
 ## Blackbox Test Cases:
 
-|S. No |	Sample Input (Celsius) | Sample Output (Fahrenheit)|
+|S. No |	Sample Input | Sample Output|
 |------|------|------|
 |1 |	70, 1.75 |	22.86, Normal |
 |2 |	50, 1.60 |	19.53, Normal |

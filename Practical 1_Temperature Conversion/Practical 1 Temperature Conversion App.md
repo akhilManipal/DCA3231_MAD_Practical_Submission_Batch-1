@@ -18,7 +18,7 @@ The app displays the temperature in Fahrenheit after conversion.
 
 ## Blackbox Test Cases:
 
-|S. No |	Sample Input (Celsius) | Sample Output (Fahrenheit)|
+|S. No |	Sample Input | Sample Output|
 |------|------|------|
 |1 |	0 |	32.0°F|
 |2 |	100 |	212.0°F|
