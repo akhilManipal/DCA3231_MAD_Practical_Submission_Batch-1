@@ -1,4 +1,5 @@
 # DCA3231 Mobile Application Development Practicals
+
 Welcome to the Android Development Practicals repository. This repository is designed to facilitate the submission and evaluation of practical exercises related to Android application development. Each practical is focused on a specific aspect of Android development, from basic UI interactions to more complex functionalities.
 ---
 
@@ -13,6 +14,7 @@ This repository is organized into separate directories for each practical exerci
 ---
 
 ## Submission Guidlines
+
 1. **Fork and Clone:** Start by forking this repository to your GitHub account and then clone it to your local development environment.
 2. **Branching:** For each practical, create a new branch from main named after the practical (e.g., practical-1-submission).
 3. **Development:** Develop your practical solution within the appropriate directory. Make sure to follow the specific instructions provided in the README.md file of each practical's directory.
@@ -21,10 +23,12 @@ This repository is organized into separate directories for each practical exerci
 ---
 
 ## Evaluation Process
+
 Submissions will be evaluated through automated CI/CD pipelines, which will run tests against your code to ensure it meets the specified requirements and functions correctly. Feedback will be provided within the pull request comments. Ensure your code passes all tests and adheres to the provided instructions and coding standards.
 ---
 
 ## General Instructions
+
 - Ensure your code is well-commented and follows best practices for readability and maintainability.
 - Adhere to the naming conventions specified in each practical's instructions.
 - Test your application thoroughly before submission to minimize issues and ensure functionality.
