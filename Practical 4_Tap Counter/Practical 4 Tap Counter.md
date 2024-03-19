@@ -1,4 +1,4 @@
-# Practical 3: To-Do List App
+# Practical 4: Tap Counter App
 
 ## Exercise Objective:
 Develop an Android application that counts the number of taps on a button and displays the count.
