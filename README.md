@@ -15,11 +15,59 @@ This repository is organized into separate directories for each practical exerci
 
 ## Submission Guidlines
 
-1. **Fork and Clone:** Start by forking this repository to your GitHub account and then clone it to your local development environment.
-2. **Branching:** For each practical, create a new branch from main named after the practical (e.g., practical-1-submission).
-3. **Development:** Develop your practical solution within the appropriate directory. Make sure to follow the specific instructions provided in the README.md file of each practical's directory.
-4. **Committing Changes:** Commit your changes with meaningful commit messages that reflect the work done.
-5. **Pushing and Pull Requests:** Push your changes to your fork and then submit a pull request to the main repository for evaluation. Ensure the pull request is named appropriately for the practical you are submitting (e.g., "Practical 1: Temperature Conversion Submission").
+## Step 1: Fork the Repository
+
+1. At the top-right corner of this repository page, click the **Fork** button.
+2. This action will create a copy of this repository in your GitHub account named `<your-username>/Assignment-Repository`.
+
+## Step 2: Clone Your Fork
+
+1. On your fork's GitHub page, click the **Code** button and copy the URL provided.
+2. Open your terminal or command prompt and run the following command:
+
+    ```bash
+    git clone <URL-you-copied>
+    cd Assignment-Repository
+    ```
+
+## Step 3: Create a New Branch
+
+Create a new branch for your assignment work. Replace `<branch-name>` with a meaningful name, such as your name or student ID.
+
+```bash
+git checkout -b <branch-name>
+```
+
+## Step 4: Complete Your Assignment
+
+1. Add or modify the files in your local repository as per the assignment requirements.
+2. Use your preferred editor or IDE to write your code or answers.
+
+## Step 5: Commit Your Changes
+
+As you make changes, commit them to your branch. Make sure your commit messages are meaningful.
+
+```bash
+git add .
+git commit -m "Describe your changes here"
+```
+
+## Step 6: Push Your Changes
+
+Push your changes to your fork on GitHub.
+
+```bash
+git push origin <branch-name>
+```
+
+## Step 7: Open a Pull Request
+
+1. Go to the original repository you forked.
+2. Click on the **Pull requests** tab and then click the **New pull request** button.
+3. Select your fork and branch as the source, and the original repository's branch you want to merge into as the target.
+4. Fill in the pull request details and click **Create pull request**.
+
+Follow these steps carefully to ensure your assignment submission is successful. If you have any issues, please contact your instructor.
 ---
 
 ## Evaluation Process
