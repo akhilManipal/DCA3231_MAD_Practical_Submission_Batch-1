@@ -1,0 +1,29 @@
+name: Java CI for Practical 1
+
+on:
+  push:
+    paths:
+      - 'Practical 1_Temperature Conversion/**'
+  pull_request:
+    paths:
+      - 'Practical 1_Temperature Conversion/**'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up JDK 17
+      uses: actions/setup-java@v2
+      with:
+        java-version: '17'
+        distribution: 'temurin' # This is the successor to 'adopt'
+
+    - name: Build and test with Gradle
+      working-directory: "Practical 1_Temperature Conversion"
+      run: |
+        chmod +x ./gradlew
+        ./gradlew test --no-daemon
