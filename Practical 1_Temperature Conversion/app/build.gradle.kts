@@ -38,6 +38,16 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     testImplementation(libs.junit)
-    androidTestImplementation(libs.ext.junit)
-    androidTestImplementation(libs.espresso.core)
+//    androidTestImplementation(libs.ext.junit)
+//    androidTestImplementation(libs.espresso.core)
+    // Add JUnit Jupiter API for test implementation
+    androidTestImplementation("org.junit.jupiter:junit-jupiter-api:5.7.0")
+
+    // Add JUnit Jupiter Engine for test runtime
+    androidTestImplementation("org.junit.jupiter:junit-jupiter-engine:5.7.0")
 }
+
+// Configure the test tasks to use JUnit Platform
+//tasks.test {
+//    useJUnitPlatform()
+//}
