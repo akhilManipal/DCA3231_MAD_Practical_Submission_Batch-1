@@ -24,12 +24,12 @@ jobs:
 
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
-      working-directory: Practical\ 1_Temperature\ Conversion/
+      working-directory: "Practical 1_Temperature Conversion/"
 
     - name: Build with Gradle
       run: ./gradlew build
-      working-directory: Practical\ 1_Temperature\ Conversion/
+      working-directory: "Practical 1_Temperature Conversion/"
 
     - name: Run unit tests
       run: ./gradlew test
-      working-directory: Practical\ 1_Temperature\ Conversion/
+      working-directory: "Practical 1_Temperature Conversion/"
