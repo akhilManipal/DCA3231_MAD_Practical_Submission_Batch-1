@@ -18,12 +18,14 @@ jobs:
       with:
         java-version: '11'
         distribution: 'adopt'
+    - name: Change to the Project Directory
+      run: cd ./Practical\ 1_Temperature\ Conversion/
 
     - name: Grant execute permission for gradlew
-      run: chmod +x ./Practical\ 1_Temperature\ Conversion/gradlew
+      run: chmod +x ./gradlew
 
     - name: Build with Gradle
-      run: ./Practical\ 1_Temperature\ Conversion/gradlew build
+      run: ./gradlew build
 
     - name: Run unit tests
-      run: ./Practical\ 1_Temperature\ Conversion/gradlew test
+      run: ./gradlew test
