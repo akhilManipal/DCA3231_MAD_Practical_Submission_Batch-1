@@ -1,5 +1,7 @@
 # Practical 5: Calculator App
 
+[Submission Link](https://github.com/akhilManipal/calculatorApp)
+
 ## Exercise Objective:
 Create a simple Android calculator app that performs basic arithmetic operations: addition, subtraction, multiplication, and division.
 

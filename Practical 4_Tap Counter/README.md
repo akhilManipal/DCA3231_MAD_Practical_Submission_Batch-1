@@ -1,5 +1,7 @@
 # Practical 4: Tap Counter App
 
+[Submission Link](https://github.com/akhilManipal/tapCounter)
+
 ## Exercise Objective:
 Develop an Android application that counts the number of taps on a button and displays the count.
 

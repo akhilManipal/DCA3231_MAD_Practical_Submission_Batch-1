@@ -1,5 +1,7 @@
 # Practical 2: BMI Calculator App
 
+[Submission Link](https://github.com/akhilManipal/bmiCalculator)
+
 ## Exercise Objective:
 Create an Android app that calculates the Body Mass Index (BMI) and determines the weight category.
 
