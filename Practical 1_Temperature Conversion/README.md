@@ -1,5 +1,7 @@
 # Practical 1: Temperature Conversion App
 
+[Submission Link](https://github.com/akhilManipal/temperatureConversion)
+
 ## Exercise Objective:
 Develop a simple Android application that converts temperatures from Celsius to Fahrenheit.
 
