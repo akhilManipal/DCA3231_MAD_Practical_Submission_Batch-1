@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 // Display the result
                 resultFahrenheit.setText(String.format("%.1f°F", fahrenheit));
             }
+            //Testing CI/CD
         });
     }
 }
